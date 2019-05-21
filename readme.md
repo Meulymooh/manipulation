@@ -18,19 +18,19 @@ No link. PHP exercises, the server-related instructions won't work.
 ### Object/Array Manipulation
 
 * Push new item in a regular array: https://www.php.net/manual/fr/function.array-push.php
-
-### CSS
-
-* Background-clip: https://developer.mozilla.org/fr/docs/Web/CSS/background-clip
-
+* Choose a random key in an array: https://www.php.net/manual/fr/function.array-rand.php
+* Probability of an event: https://stackoverflow.com/questions/9252671/how-do-i-execute-one-event-in-php-based-on-a-probability-for-the-event-to-happen
+* Chunk (split) array: https://www.php.net/manual/en/function.array-chunk.php
+* Round the counting to next number if the array can't be divided by two: https://www.php.net/manual/en/function.ceil.php
 
 ## Difficulties
 
 * In the string manipulation exercise, I didn't manage to achieve the bonus instruction. I've found a bypass using the "background-clip" property in CSS.
 
+
 ## Feedback
 
-* [Will be added soon]
+In the object manipulation exercise, I didn't understand the purpose of the "for" loop to add an item in the arrays. Unless I misunderstood the instruction...
 
 
 

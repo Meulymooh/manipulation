@@ -58,36 +58,60 @@
 
 				<?php 
 
-					// Regular array
-					$pets = array("cat", "dog", "ferret");
-					// Add item in array
-					array_push($pets, "mouse"); 
+					// REGULAR ARRAY
+					// Create array
+					$pets = array("cat", "dog", "ferret", "rabbit", "hamster", "goldfish", "turtle");
+					// Add item
+					array_push($pets, "mouse");
+					// Edit random item
+					$chance = rand(1,5);
+					if ($chance == 1) {
+						$randomItem = array_rand($pets);
+						$pets[$randomItem] = "rat";
+					}
+					echo "<b>List of pet animals:</b><br/>";
+					// Render array
 					foreach ($pets as $pet){
 						echo "$pet ";
 					 } 
-					echo "<br/>";
+					echo "<br/><br/>";
 
-					// Associative array
-					$farmAnimals = array("oink" => "pig", "mooh" => "cow", "quack" => "duck");
-					// Add item in associative array
+
+					// ASSOCIATIVE ARRAY
+					// Create array
+					$farmAnimals = array("oink" => "pig", "mooh" => "cow", "quack" => "duck", "gobble" => "turkey", "cock-a-doodle-doo" => "chicken", "baa" => "sheep");
+					// Add item
 					$farmAnimals["hee-haw"] = "donkey";
+					echo "<b>List of farm animals:</b><br/>";
+					// Render array
 					foreach ($farmAnimals as $petSound => $farmAnimal){  
     					echo "$farmAnimal "; 
 					}  
-
+					echo "<br/><br/>";
+					// Divide array in two
+					list($firsthalf, $secondhalf) = array_chunk($farmAnimals, ceil(count($farmAnimals) / 2), true);
+					echo "<b>Farm animals divided in halves:</b><br/>";
+					foreach ($firsthalf as $petSound => $farmAnimal){
+						echo "$farmAnimal ";
+					}
 					echo "<br/>";
+					foreach ($secondhalf as $petSound => $farmAnimal){
+						echo "$farmAnimal ";
+					}
+					echo "<br/><br/>";
 
-					// Object
+
+					// OBJECT
 					$wildAnimal = new stdClass();
 					$wildAnimal->type = "reptile";
     				$wildAnimal->species = "rattlesnake";
     				$wildAnimal->habitat = "desert";
-    				// Add item in array
-					foreach ($wildAnimal as $characteristics) {
-						$wildAnimal->dangerousness = "venomous";
+    				$wildAnimal->dangerousness = "venomous";
+    				echo "<b>Wild animal characteristics:</b><br/>";
+    				// Render array
+    				foreach ($wildAnimal as $characteristics) {
 						echo "$characteristics ";
 					}
-					echo "<br/>";
 
 				?>
 
