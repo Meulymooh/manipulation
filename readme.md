@@ -17,7 +17,7 @@ No link. PHP exercises, the server-related instructions won't work.
 
 ### Object/Array Manipulation
 
-* [Will be added soon]
+* Push new item in a regular array: https://www.php.net/manual/fr/function.array-push.php
 
 ### CSS
 
