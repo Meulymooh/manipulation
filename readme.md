@@ -22,6 +22,7 @@ No link. PHP exercises, the server-related instructions won't work.
 * Probability of an event: https://stackoverflow.com/questions/9252671/how-do-i-execute-one-event-in-php-based-on-a-probability-for-the-event-to-happen
 * Chunk (split) array: https://www.php.net/manual/en/function.array-chunk.php
 * Round the counting to next number if the array can't be divided by two: https://www.php.net/manual/en/function.ceil.php
+* Remove last element of an array: https://www.php.net/manual/en/function.array-pop.php
 
 ## Difficulties
 

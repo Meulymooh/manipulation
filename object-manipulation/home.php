@@ -99,6 +99,13 @@
 						echo "$farmAnimal ";
 					}
 					echo "<br/><br/>";
+					// Remove last item
+					$lastItem = array_pop($farmAnimals);
+					echo "<b>Farm animals without last item:</b><br/>";
+					foreach ($farmAnimals as $petSound => $farmAnimal){
+						echo "$farmAnimal ";
+					}
+					echo "<br/><br/>";
 
 
 					// OBJECT
