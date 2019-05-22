@@ -23,10 +23,12 @@ No link. PHP exercises, the server-related instructions won't work.
 * Chunk (split) array: https://www.php.net/manual/en/function.array-chunk.php
 * Round the counting to next number if the array can't be divided by two: https://www.php.net/manual/en/function.ceil.php
 * Remove last element of an array: https://www.php.net/manual/en/function.array-pop.php
+* Set cookie for object: 
 
 ## Difficulties
 
 * In the string manipulation exercise, I didn't manage to achieve the bonus instruction. I've found a bypass using the "background-clip" property in CSS.
+* In the object manipulation exercise, I had a hard time understanding how to add array 1 and 2 into the object and echo them with the part of the object previously set. I can echo the added arrays but not with the first part of the object. But in the var_dump you can see that everything is in the object. Got help from Raf for explanations.
 
 
 ## Feedback
