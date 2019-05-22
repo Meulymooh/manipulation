@@ -32,8 +32,3 @@ No link. PHP exercises, the server-related instructions won't work.
 ## Feedback
 
 In the object manipulation exercise, I didn't understand the purpose of the "for" loop to add an item in the arrays. Unless I misunderstood the instruction...
-
-
-
-
-
